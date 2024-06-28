@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* About Us Section */
+ *{
+	 margin:0;
+	 padding:0;
+	 box-sizing: border-box;
+	 overflow-x: hidden;
+ }
+ 
+ .navv{
+	position: fixed;
+	z-index:100;
+}
+ 
+ .SectionY{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    margin-top:100px;
+   	box-sizing: border-box;
+   	overflow: hidden;
+}
+
+.Container {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.Content-section {
+    width: 60%;
+    float: left;
+    padding-right: 20px;
+}
+
+
+
+/* About Us Content Styling */
+.title {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Content h3 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 24px;
+}
+
+.Content p {
+    margin-top: 15px;
+    color: #555;
+    font-size: 18px;
+}
+
+.Button a {
+    display: inline-block;
+    background-color: #007bff;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Button a:hover {
+    background-color: #0056b3;
+}
+
+.social i {
+    color: #555c64;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.social i:hover {
+    color: #85acd5;
+}
+
+/* Contact Us Section */
+.Contact-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Add margin to separate from the About Us content */
+}
+
+.Contact-info h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.Contact-info p {
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #555;
+}
+
+.Contact-info form {
+    margin-top: 20px;
+}
+
+.Contact-info .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Contact-info textarea {
+    height: 50px;
+}
+
+.Contact-info .submit-button {
+    background-color: #8ab2dd;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Contact-info .submit-button:hover {
+    background-color: #4a739e;
+}

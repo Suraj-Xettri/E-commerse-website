@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.god{
+	height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.mainSection{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 400px;
+    height: 500px;
+}
+
+        
+.top{
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid rgb(203, 199, 199);
+    padding: 35px 40px 20px 40px;
+    height: 400px;
+    }
+    .tooop{
+        text-align: center;
+        font-size: 60px;
+        font-family: 'Brush Script MT', cursive;
+        font-weight: 500;
+        
+    }
+    
+    .error{
+    	display: flex;
+    	 justify-content: center;
+    	align-items: center;
+    	
+    
+    }
+    
+    .lab{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .lab input{
+        width: 250px;
+        padding: 8px;
+        margin: 3px;
+        border-radius: 5px;
+        border: 1px solid rgb(227, 214, 214);
+    }
+    .lab button{
+        width: 250px;
+        padding: 5px;
+        margin-left: 10px;
+        border-radius: 10px;
+        background-color: rgb(96, 157, 237);
+        color: aliceblue;
+        border-color: transparent;
+        margin-top: 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .lab button:hover{
+        opacity: 0.8;
+    }
+    
+    .mid{
+        border-bottom: 1px solid grey;
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .miss{
+        position: absolute;
+        border-radius: 20px;
+        left: 113px;
+        top: -20px;
+        border: 1px solid white;
+        background-color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .miss p{
+        font-size: 13px;
+    }
+    
+    .button{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 18px;
+        margin-bottom: 40px;
+    }
+    
+    .button a{
+        text-decoration: none;
+        color: blue;
+        transition: all .5s ease-out;
+    }
+
+    .button a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    
+    .lf{
+        display: flex;
+    }
+    .lin{
+        color:#385185; 
+        font-weight: 600;
+    }
+    .lin:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+    .lins:hover{
+        text-decoration:underline;
+        color: rgb(55, 52, 52);
+    }
+    
+    .fp a{
+        color: black;
+    }
+    
+    .butto{
+        border: 1px solid rgb(203, 199, 199);
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+        padding: 10px;
+    }
+    .butto a{
+        font-weight: 600;
+        color: rgb(0, 34, 255);
+
+    }
+    
